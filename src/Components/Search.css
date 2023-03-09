@@ -1,0 +1,41 @@
+.inputcontainer{
+    width: 100%;
+    height: 25vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    padding: 1rem;
+    background-color: rgb(44,46,55);
+}
+
+.inputsearch{
+    width: 50%;
+    height: 40%;
+    margin: 1rem;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inputsearch input{
+    width: 40%;
+    padding: 8px 10px;
+    font-size: 1rem;
+
+
+}
+.inputsearch button{
+    padding: 6px 15px;
+    margin-left: 1rem;
+    outline: none;
+    background-color: white;
+    font-size: 1rem;
+    border: 2px gray solid;
+}
